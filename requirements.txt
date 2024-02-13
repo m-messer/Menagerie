@@ -2,3 +2,4 @@ GitPython
 pandas
 seaborn
 pydub
+selenium
