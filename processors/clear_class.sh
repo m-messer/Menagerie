@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR_PATH='../data/batches/*'
+DIR_PATH='../data/annoymised_final/*'
 
 for batch in $DIR_PATH
 do

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR_PATH='../data/batches/*'
+DIR_PATH='../data/annoymised_final/*'
 EXCEPTION_FILE='../data/exceptions.txt'
 LIBRARY_EXCEPTION_FILE='../data/library_exceptions.txt'
 CHANGED_FILE='../data/changed_submissions.txt'
@@ -8,13 +8,13 @@ CHANGED_FILE='../data/changed_submissions.txt'
 rm $EXCEPTION_FILE
 rm $LIBRARY_EXCEPTION_FILE
 
-for batch in $DIR_PATH
+for year in $DIR_PATH
 do
-  if [[ ! -d "$batch" ]]; then
+  if [[ ! -d "$year" ]]; then
      continue
   fi
 
-  for sub in $batch/*
+  for sub in $year/*
   do
     if [[ ! -d "$sub" ]]; then
       continue
