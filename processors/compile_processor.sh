@@ -22,13 +22,17 @@ do
 
     exception=$(javac $sub/*.java 2>&1)
 
-    if [[ $exception == *'Fox is not abstract and does not override abstract method'* ]]; then
+    if [[ $exception == 'Note:'* ]]; then
+      continue
+    elif [[ $exception == *'Fox is not abstract and does not override abstract method'* ||
+          $exception == *'constructor Animal in class Animal cannot be applied to given types'* ||
+          $exception == *'Fox cannot override'*'attempting to assign weaker access privileges;'* ||
+          $exception == *'Fox.java'*'cannot be applied to given types;'* ]]; then
       rm $sub/Fox.java $sub/Rabbit.java
       echo $sub >> $CHANGED_FILE
     elif [[ $exception == *'does not exist'* ]]; then
         echo $sub >> $LIBRARY_EXCEPTION_FILE
     elif [[ ! $exception == '' ]]; then
-      echo $sub >> $EXCEPTION_FILE
       echo $exception >> $EXCEPTION_FILE
     fi
   done
