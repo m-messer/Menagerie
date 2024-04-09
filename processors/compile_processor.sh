@@ -1,12 +1,14 @@
 #!/bin/bash
 
-DIR_PATH='../data/annoymised_final/*'
+DIR_PATH='../data/anonymised_assignments/*'
 EXCEPTION_FILE='../data/exceptions.txt'
+KNOWN_EXCEPTION='../data/known_exceptions.txt'
 LIBRARY_EXCEPTION_FILE='../data/library_exceptions.txt'
 CHANGED_FILE='../data/changed_submissions.txt'
 
 rm $EXCEPTION_FILE
 rm $LIBRARY_EXCEPTION_FILE
+rm $KNOWN_EXCEPTION
 
 for year in $DIR_PATH
 do
@@ -34,6 +36,7 @@ do
         echo $sub >> $LIBRARY_EXCEPTION_FILE
     elif [[ ! $exception == '' ]]; then
       echo $exception >> $EXCEPTION_FILE
+      echo $sub >> $KNOWN_EXCEPTION
     fi
   done
 done

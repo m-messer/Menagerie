@@ -5,3 +5,9 @@
 
 data/*
 creds.json
+!/data/anonymised_assignments/
+!/data/template/
+!/data/grades/
+!/data/batches/
+!/data/library_exceptions.txt
+!/data/known_exceptions.txt
