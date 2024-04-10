@@ -7,8 +7,7 @@ NOTE: DOES THIS MATTER THAT THIS IS COPIED/SLIGHTLY EDITED FROM THE AIED JOURNAL
 
 The assignment was a small-group, open-ended paired programming assignment to utilise object-oriented programming concepts to develop a predator/prey simulator with groups of two or three.
 The students were provided with a template project based on the "foxes-and-rabbit" from "Objects First with Java" by Barnes and Kölling 2006.
-The template includes a graphical user interface (GUI), a field class which contains a two-dimensional array for the simulation environment, and two animals, a Fox and a Rabbit;  \autoref{fig:template_url} shows the class diagram of the template code.
-
+The template includes a graphical user interface (GUI), a field class which contains a two-dimensional array for the simulation environment, and two animals, a Fox and a Rabbit.
 Students were asked to extend the template code with the following base tasks:
 - The simulation should have at least five species, with at least two being predators and at least two not being predators.
 - At least two predators should compete for the same food source.
