@@ -37,7 +37,7 @@ More details about the dataset can be found in our [publications](#publications)
 
 ## Using the dataset
 To use the dataset for your research, the submissions source code can be found in ```data/anonymised_assignments```
-and the awarded grades and feedback can be found in ```data/grades```.
+and the awarded grades and feedback can be found in ```data/grades.csv```.
 These are split by academic year (18/19, 19/20, 20/21, 21/22).
 Only 273 assignments have associated grades and feedback, as they are not the original awarded grades for 
 the assignment, but instead annotated as part of another study (details of which can be found in [Publications](#publications)).
@@ -68,7 +68,6 @@ TODO:
 - Add AIED Journal Extension
 
 ## Structure
-TODO: ADD GRADING TO TREE
 ```
 .
 ├── demographics_analysis.ipynb
@@ -93,7 +92,7 @@ TODO: ADD GRADING TO TREE
 │   │   ├── 20~21.zip
 │   │   └── 21~22.zip
 │   ├── batches
-│   ├── grades
+│   ├── grades.csv
 │   ├── known_exceptions.txt
 │   ├── library_exceptions.txt
 │   ├── pre_study_survey.csv
