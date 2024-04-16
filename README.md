@@ -71,26 +71,10 @@ TODO:
 TODO: ADD GRADING TO TREE
 ```
 .
-├── data
-│   ├── anonymised_assignments
-│   │   ├── 18~19.zip
-│   │   ├── 19~20.zip
-│   │   ├── 20~21.zip
-│   │   └── 21~22.zip
-│   ├── batches
-│   ├── exceptions.txt
-│   ├── known_exceptions.txt
-│   ├── library_exceptions.txt
-│   ├── template
-│   │   ├── 18~19
-│   │   ├── 19~20
-│   │   ├── 20~21
-│   │   └── 21~22
-├── example_analysis
-│   ├── analysis.ipynb
-│   ├── data_loader.ipynb
-│   └── plots
-├── processors
+├── demographics_analysis.ipynb
+├── LICENSE
+├── README.md
+├── assignment_processors
 │   ├── batch_processor.ipynb
 │   ├── branch_processor.ipynb
 │   ├── clear_class.sh
@@ -101,11 +85,35 @@ TODO: ADD GRADING TO TREE
 │   ├── submission_processor.ipynb
 │   ├── submission_zip_processor.ipynb
 │   └── template_processor.ipynb
+├── data
+│   ├── analysis_df.pickle
+│   ├── anonymised_assignments
+│   │   ├── 18~19.zip
+│   │   ├── 19~20.zip
+│   │   ├── 20~21.zip
+│   │   └── 21~22.zip
+│   ├── batches
+│   ├── grades
+│   ├── known_exceptions.txt
+│   ├── library_exceptions.txt
+│   ├── pre_study_survey.csv
+│   ├── template
+│   │   ├── 18~19
+│   │   ├── 19~20
+│   │   ├── 20~21
+│   │   └── 21~22
+├── example_analysis
+│   ├── analysis.ipynb
+│   ├── data_loader.ipynb
+│   └── plots
 └── requirements.txt
 ```
 
+## Grader Demographics Analysis
+``demographics_analysis.ipynb`` gives an overview of the grader demographics.
+
 ## Data Processing Pipeline
-All our data processing can be found in ```processors/*```.
+All our data processing can be found in ```assignment_processors/*```.
 
 ### Requirements
 #### Python Libraries:
