@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: jupyter-nb-clear-output
         name: jupyter-nb-clear-output
-        files: \.ipynb$
+        files: \assignment_processors\*.ipynb$
         stages: [commit]
         language: system
         entry: jupyter nbconvert --clear-output --inplace
