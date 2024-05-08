@@ -1510,16 +1510,16 @@ It is suggested to provide more accurate comments to improve readability. It is 
 5,360.0,,Correctness,05,1,B+
 6,139.0,,Correctness,05,1,B-
 7,115.0,,Correctness,05,1,B-
-8,532.0,,Correctness,05,1,
+8,532.0,,Correctness,05,1,A-
 9,71.0,,Correctness,05,1,B
 10,354.0,,Correctness,05,1,B-
-11,118.0,,Correctness,05,1,
+11,118.0,,Correctness,05,1,A-
 12,675.0,,Correctness,05,1,A
 13,382.0,,Correctness,05,1,A
 14,663.0,,Correctness,05,1,A
 15,62.0,,Correctness,05,1,B+
 16,599.0,,Correctness,05,1,A
-17,567.0,,Correctness,05,1,
+17,567.0,,Correctness,05,1,A
 18,227.0,,Correctness,05,1,B+
 19,559.0,,Correctness,05,1,A-
 0,276.0,,Code Elegance,05,1,C+
@@ -1864,24 +1864,24 @@ It is suggested to provide more accurate comments to improve readability. It is 
 19,559.0,,Code Elegance,08,1,B+
 0,276.0,"This assignment consists of a lot of code duplication which can be optimized well, there are some issues in the documentation like copy/paste issues, not clearly defined behavior descriptions, and variable naming issues and format problems",Documentation,08,1,B
 1,149.0,"This submission consists of some naming issues, unused methods, and confusion in the usage of this and super. ",Documentation,08,1,A
-2,31.0,,Documentation,08,1,
+2,31.0,,Documentation,08,1,A
 3,627.0,some places lack documentation but overall code is well documented,Documentation,08,1,A++
-4,312.0,,Documentation,08,1,
+4,312.0,,Documentation,08,1,A
 5,360.0,,Documentation,08,1,B+
-6,139.0,,Documentation,08,1,
-7,115.0,,Documentation,08,1,
+6,139.0,,Documentation,08,1,A
+7,115.0,,Documentation,08,1,A
 8,532.0,,Documentation,08,1,A++
 9,71.0,,Documentation,08,1,A+
-10,354.0,,Documentation,08,1,
+10,354.0,,Documentation,08,1,A
 11,118.0,,Documentation,08,1,A+
 12,675.0,some of comments are not clear ,Documentation,08,1,B+
 13,382.0,,Documentation,08,1,B+
 14,663.0,,Documentation,08,1,A-
 15,62.0,no description for Grass class,Documentation,08,1,A
-16,599.0,,Documentation,08,1,
-17,567.0,,Documentation,08,1,
+16,599.0,,Documentation,08,1,A
+17,567.0,,Documentation,08,1,A
 18,227.0,descriptions of some classes are missing,Documentation,08,1,B+
-19,559.0,,Documentation,08,1,
+19,559.0,,Documentation,08,1,A
 0,217.0,Consistent indentation and whitespace. Meaningful identifier names used. Good use of private/public.,Readability,27,2,A+
 1,623.0,Confident indentation and whitespace. Meaningful identifier names used. Good use of private/public.,Readability,27,2,A+
 2,315.0,Consistent indentation and whitespace. Meaningful identifier names used. Good use of private/public.,Readability,27,2,A
