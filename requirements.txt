@@ -4,3 +4,4 @@ seaborn
 pydub
 selenium
 tqdm
+function-parser
