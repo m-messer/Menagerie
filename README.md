@@ -1,6 +1,6 @@
 # Menagerie: A Dataset of Graded CS1 Assignments
 The Menagerie dataset consists of a second semester CS1 assignment that ran over four academic years (18/19 - 21/22).
-It consists of 667 total submissions, with 273 of those being subsequently graded _post hoc_ 
+It consists of 667 total submissions, with 272 of those being subsequently graded _post hoc_ 
 as part of a study into the consistency of human graders.
 We ask that if you use Menagerie in your research to use the [citation](#citation) below.
 
