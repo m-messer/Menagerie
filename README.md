@@ -59,19 +59,20 @@ For more information about the graders' demographics, see ```demographics_analys
 We have used the Menagerie dataset in a number of publications, including evaluating the consistency of human graders and
 developing machine learning-based automatic assessment tools for grading documentation.
 For further details please see the papers and data processing repositories below:
-- Grading Documentation with Artificial Intelligence - _In Press_
-- How Consistent are Human Graders? - _In Press_
+
+- How Consistent Are Humans When Grading Programming Assignments?: 2024. osf.io/preprints/edarxiv/nd6qy.
 
 ## Citation
 If you use this dataset in your work please cite:
 ```
-@misc{Messer2024,
-  title={Meneragie: A Dataset of Graded Programming Assignments},
-  url={osf.io/q8jbt},
-  publisher={OSF},
-  author={Messer, Marcus and Brown, Neil and Kölling, Michael and Shi, Miaojing},
-  year={2024},
-  month={Apr}
+@misc{messer_brown_kölling_shi_2024,
+ title={How Consistent Are Humans When Grading Programming Assignments?},
+ url={osf.io/preprints/edarxiv/nd6qy},
+ DOI={10.35542/osf.io/nd6qy},
+ publisher={EdArXiv},
+ author={Messer, Marcus and Brown, Neil and Kölling, Michael and Shi, Miaojing},
+ year={2024},
+ month={Sep}
 }
 ```
 
