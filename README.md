@@ -39,6 +39,8 @@ More in-depth examples of the using the dataset can be found in the [publication
 The awarded grades and feedback can be found in ```data/grades.csv```.
 Only 273 assignments have associated grades and feedback, as they are not the original awarded grades for
 the assignment, but instead annotated as part of another study (details of which can be found in [Publications](#publications)).
+All 273 assignments have each been graded four times on correctness, code elegance, readability and documentation, as described below.
+To find a single grade for the assignment for each of the skills, we suggest that researchers may take the consensus grade or the average grade.
 
 The grades and feedback published in the Menagerie dataset are not the students' awarded grades, as we could not receive ethical permission to release actual student grades publicly.
 Details about how we captured these grades can be found in our [publications](#publications).
@@ -65,14 +67,14 @@ For further details please see the papers and data processing repositories below
 ## Citation
 If you use this dataset in your work please cite:
 ```
-@misc{messer_brown_kölling_shi_2024,
- title={How Consistent Are Humans When Grading Programming Assignments?},
- url={osf.io/preprints/edarxiv/nd6qy},
- DOI={10.35542/osf.io/nd6qy},
- publisher={EdArXiv},
- author={Messer, Marcus and Brown, Neil and Kölling, Michael and Shi, Miaojing},
- year={2024},
- month={Sep}
+@misc{messer2025consistenthumansgradingprogramming,
+      title={How Consistent Are Humans When Grading Programming Assignments?}, 
+      author={Marcus Messer and Neil C. C. Brown and Michael Kölling and Miaojing Shi},
+      year={2025},
+      eprint={2409.12967},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2409.12967}, 
 }
 ```
 
