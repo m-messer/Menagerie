@@ -40,6 +40,7 @@ The awarded grades and feedback can be found in ```data/grades.csv```.
 Only 273 assignments have associated grades and feedback, as they are not the original awarded grades for
 the assignment, but instead annotated as part of another study (details of which can be found in [Publications](#publications)).
 All 273 assignments have each been graded four times on correctness, code elegance, readability and documentation, as described below.
+To find a single grade for the assignment for each of the skills, we suggest that researchers may take the consensus grade or the average grade.
 
 The grades and feedback published in the Menagerie dataset are not the students' awarded grades, as we could not receive ethical permission to release actual student grades publicly.
 Details about how we captured these grades can be found in our [publications](#publications).
